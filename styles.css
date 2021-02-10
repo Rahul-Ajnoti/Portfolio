@@ -13,7 +13,7 @@ body {
 #about,
 #skills,
 #footer {
-  cursor: url(/Icons/red-cursor.png), auto;
+  cursor: url(./Icons/red-cursor.png), auto;
 }
 a {
   text-decoration: none;
@@ -87,7 +87,7 @@ a {
     font-size: 1rem;
   }
   #home .btn button:hover {
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
     color: #780202;
     background-color: #dedbdb;
     border: 2px solid #780202;
@@ -231,7 +231,7 @@ a {
     padding: 1px 5px;
   }
   .container2 .subtext:hover {
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
     background-color: #780202;
     color: #dedbdb;
   }
@@ -305,7 +305,7 @@ a {
   }
   .fcontainer .icons img:hover {
     transform: scale(1.1);
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
   }
   .cr {
     font-size: 1rem;
@@ -376,7 +376,7 @@ a {
     font-size: 1rem;
   }
   #home .btn button:hover {
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
     color: #780202;
     background-color: #dedbdb;
     border: 2px solid #780202;
@@ -517,7 +517,7 @@ a {
     padding: 1px 5px;
   }
   .container2 .subtext:hover {
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
     background-color: #780202;
     color: #dedbdb;
   }
@@ -592,7 +592,7 @@ a {
   }
   .fcontainer .icons img:hover {
     transform: scale(1.1);
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
   }
   .cr {
     font-size: 1rem;
@@ -675,7 +675,7 @@ a {
     font-size: 1rem;
   }
   #home .btn button:hover {
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
     color: #780202;
     background-color: #dedbdb;
     border: 2px solid #780202;
@@ -831,7 +831,7 @@ a {
     padding: 1px 5px;
   }
   .container2 .subtext:hover {
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
     background-color: #780202;
     color: #dedbdb;
   }
@@ -906,7 +906,7 @@ a {
   }
   .fcontainer .icons img:hover {
     transform: scale(1.1);
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
   }
   .cr {
     font-size: 1rem;
@@ -1031,7 +1031,7 @@ a {
     font-size: 1.35rem;
   }
   #home .btn button:hover {
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
     color: #780202;
     background-color: #dedbdb;
     border: 2px solid #780202;
@@ -1188,7 +1188,7 @@ a {
     padding: 1px 5px;
   }
   .container2 .subtext:hover {
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
     background-color: #780202;
     color: #dedbdb;
   }
@@ -1263,7 +1263,7 @@ a {
   }
   .fcontainer .icons img:hover {
     transform: scale(1.1);
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
   }
   .cr {
     font-size: 1.1rem;
@@ -1366,7 +1366,7 @@ a {
     font-size: 1.5rem;
   }
   #home .btn button:hover {
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
     color: #780202;
     background-color: #dedbdb;
     border: 2px solid #780202;
@@ -1523,7 +1523,7 @@ a {
     padding: 1px 5px;
   }
   .container2 .subtext:hover {
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
     background-color: #780202;
     color: #dedbdb;
   }
@@ -1598,7 +1598,7 @@ a {
   }
   .fcontainer .icons img:hover {
     transform: scale(1.1);
-    cursor: url(/Icons/red-pointer.png), auto;
+    cursor: url(./Icons/red-pointer.png), auto;
   }
   .cr {
     font-size: 1.2rem;
