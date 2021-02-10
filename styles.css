@@ -132,10 +132,14 @@ a {
       flex-wrap: nowrap; */
     text-align: center;
   }
+  .main .myimg {
+    width: 10.5rem;
+    height: 10.5rem;
+  }
 
   .main .myimg img {
     border-radius: 50%;
-    height: 10.5rem;
+    width: 10.5rem;
     border: 2.5px solid #780202;
     box-shadow: 1px 1px 10px 1px #780202;
     padding-top: 0.3rem;
@@ -283,6 +287,7 @@ a {
     padding-bottom: 7rem;
   }
   .fcontainer .icons {
+    width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
