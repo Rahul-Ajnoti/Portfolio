@@ -1,0 +1,1631 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  height: 100%;
+}
+#home,
+#about,
+#skills,
+#footer {
+  cursor: url(/Icons/red-cursor.png), auto;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+}
+::-webkit-scrollbar-thumb {
+  background: #780202;
+}
+::-webkit-scrollbar-track {
+  background: #dedbdb;
+  border: 1.5px solid black;
+}
+@media screen and (max-width: 450px) {
+  #home {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 1;
+  }
+  #home .home {
+    width: 85%;
+    margin: 0 auto;
+  }
+  #home .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #home .text1 {
+    padding-top: 1rem;
+    font-size: 1rem;
+    letter-spacing: -0.8px;
+    font-weight: 500;
+  }
+
+  #home .text2 {
+    font-size: 2.8rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-top: 11rem;
+  }
+  #home .text3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-top: 0.5rem;
+  }
+  #home .text4 {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    margin-top: 0.2rem;
+    padding-left: 4px;
+  }
+  #home .btn {
+    margin-top: 4rem;
+    margin-bottom: 8.5rem;
+  }
+  #home .btn button {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 8px;
+    background-color: #780202;
+    border: none;
+    color: #dedbdb;
+    font-size: 1rem;
+  }
+  #home .btn button:hover {
+    cursor: url(/Icons/red-pointer.png), auto;
+    color: #780202;
+    background-color: #dedbdb;
+    border: 2px solid #780202;
+  }
+  #home .myimg {
+    display: none;
+  }
+
+  #about {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 2;
+  }
+  #about .acontainer {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  #about .acontainer .main {
+    width: 100%;
+  }
+  #about .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: -1.5px;
+  }
+  #about .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+  }
+  #about .main {
+    width: 80%;
+    margin: 0 auto;
+    /* display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap; */
+    text-align: center;
+  }
+
+  .main .myimg img {
+    border-radius: 50%;
+    height: 10.5rem;
+    border: 2.5px solid #780202;
+    box-shadow: 1px 1px 10px 1px #780202;
+    padding-top: 0.3rem;
+  }
+  .main .text {
+    padding-top: 3rem;
+    padding-bottom: 4.5rem;
+    font-size: 1.1rem;
+  }
+  .acontainer .main .img img {
+    display: none;
+  }
+  #skills {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 3;
+  }
+  #skills .container {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  #skills .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: -1.5px;
+  }
+  #skills .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+  }
+  #skills .container2 {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr;
+    grid-gap: 2rem 1rem;
+    text-align: center;
+  }
+
+  .container2 .html {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .container2 .css {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .container2 .photoshop {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-top: 1rem;
+  }
+  .container2 .filmora {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: 1rem;
+  }
+  .container2 .wordpress {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin-top: 1rem;
+  }
+  .container2 .figma {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin-top: 1rem;
+  }
+
+  .container2 .html img,
+  .css img,
+  .photoshop img,
+  .filmora img,
+  .wordpress img,
+  .figma img {
+    width: 4.8rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .container2 .subtext {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #780202;
+    padding: 1px 5px;
+  }
+  .container2 .subtext:hover {
+    cursor: url(/Icons/red-pointer.png), auto;
+    background-color: #780202;
+    color: #dedbdb;
+  }
+
+  .container2 .level {
+    font-family: sans-serif;
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .container2 .footer {
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    font-size: 1.1rem;
+  }
+  #footer {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 4;
+  }
+  #footer .fcontainer {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  #footer .header {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: -1.5px;
+  }
+  #footer .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 6rem;
+  }
+  .fcontainer .text {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.8rem 0rem;
+    padding-bottom: 7rem;
+  }
+  .fcontainer .icons {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0rem;
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+  .fcontainer .insta img,
+  .gmail img,
+  .whatsapp img {
+    width: 3rem;
+  }
+  .fcontainer .fb img,
+  .linkedin img {
+    width: 2.5rem;
+  }
+  .fcontainer .fb img,
+  .linkedin img {
+    border: 0.2rem solid black;
+  }
+  .fcontainer .icons img:hover {
+    transform: scale(1.1);
+    cursor: url(/Icons/red-pointer.png), auto;
+  }
+  .cr {
+    font-size: 1rem;
+    position: sticky;
+    z-index: 6;
+    text-align: center;
+    background: #dedbdb;
+    /* border-left: 4px solid #780202;
+    border-right: 4px solid #780202; */
+    border-bottom: 7px solid #780202;
+  }
+}
+
+@media screen and (min-width: 450px) {
+  #home {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 1;
+  }
+  #home .home {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #home .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  #home .text1 {
+    padding-top: 1.2rem;
+    font-size: 1rem;
+    letter-spacing: -0.8px;
+    font-weight: 500;
+  }
+
+  #home .text2 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-top: 9rem;
+  }
+  #home .text3 {
+    font-size: 3.4rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-top: 0.5rem;
+  }
+  #home .text4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    margin-top: 0.2rem;
+    padding-left: 4px;
+  }
+  #home .btn {
+    margin-top: 4rem;
+    margin-bottom: 8.5rem;
+  }
+  #home .btn button {
+    width: 7rem;
+    height: 2rem;
+    border-radius: 8px;
+    background-color: #780202;
+    border: none;
+    color: #dedbdb;
+    font-size: 1rem;
+  }
+  #home .btn button:hover {
+    cursor: url(/Icons/red-pointer.png), auto;
+    color: #780202;
+    background-color: #dedbdb;
+    border: 2px solid #780202;
+  }
+  #home .myimg {
+    display: none;
+  }
+
+  #about {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 2;
+  }
+  #about .acontainer {
+    width: 85%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  #about .acontainer .main {
+    width: 100%;
+  }
+  #about .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: -1.5px;
+  }
+  #about .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 4rem;
+  }
+  #about .main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .main .myimg img {
+    border-radius: 50%;
+    height: 10.5rem;
+    border: 2.5px solid #780202;
+    box-shadow: 1px 1px 10px 1px #780202;
+    padding-top: 0.3rem;
+  }
+  .main .text {
+    padding-top: 3rem;
+    padding-bottom: 4.5rem;
+    font-size: 1.1rem;
+  }
+  .acontainer .main .img img {
+    display: none;
+  }
+  #skills {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 3;
+  }
+  #skills .container {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  #skills .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: -1.5px;
+  }
+  #skills .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 5rem;
+  }
+  #skills .container2 {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 0.5fr;
+    grid-gap: 2rem 1rem;
+    text-align: center;
+  }
+
+  .container2 .html {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .container2 .css {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .container2 .photoshop {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-top: 1rem;
+  }
+  .container2 .filmora {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: 1rem;
+  }
+  .container2 .wordpress {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    margin-top: 1rem;
+  }
+  .container2 .figma {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin-top: 1rem;
+  }
+
+  .container2 .html img,
+  .css img,
+  .photoshop img,
+  .filmora img,
+  .wordpress img,
+  .figma img {
+    width: 4.8rem;
+    padding-bottom: 0.4rem;
+  }
+
+  .container2 .subtext {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #780202;
+    padding: 1px 5px;
+  }
+  .container2 .subtext:hover {
+    cursor: url(/Icons/red-pointer.png), auto;
+    background-color: #780202;
+    color: #dedbdb;
+  }
+
+  .container2 .level {
+    font-family: sans-serif;
+    padding-top: 0.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .container2 .footer {
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 4/5;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    font-size: 1.1rem;
+  }
+  #footer {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 4;
+  }
+  #footer .fcontainer {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  #footer .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: -1.5px;
+  }
+  #footer .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 6rem;
+  }
+  .fcontainer .text {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.8rem 0rem;
+    padding-bottom: 7rem;
+  }
+  .fcontainer .icons {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0rem;
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+  .fcontainer .insta img,
+  .gmail img,
+  .whatsapp img {
+    width: 3rem;
+  }
+  .fcontainer .fb img,
+  .linkedin img {
+    width: 2.5rem;
+  }
+  .fcontainer .fb img,
+  .linkedin img {
+    border: 0.2rem solid black;
+  }
+  .fcontainer .icons img:hover {
+    transform: scale(1.1);
+    cursor: url(/Icons/red-pointer.png), auto;
+  }
+  .cr {
+    font-size: 1rem;
+    position: sticky;
+    z-index: 6;
+    text-align: center;
+    background: #dedbdb;
+    border-bottom: 7px solid #780202;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  #home {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 1;
+  }
+  #home .home {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+  }
+  #home .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #home .home .myimg {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .home .myimg img {
+    width: 18rem;
+    padding-left: 1rem;
+    padding-top: 4.5rem;
+    margin-bottom: -4px;
+    filter: drop-shadow(3px -2px 5px #780202);
+    z-index: 0;
+  }
+  #home .text1 {
+    padding-top: 1.2rem;
+    font-size: 1rem;
+    letter-spacing: -0.8px;
+    font-weight: 500;
+    padding-bottom: 4rem;
+  }
+
+  #home .text2 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-top: 4rem;
+  }
+  #home .text3 {
+    font-size: 3.4rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-top: 0.5rem;
+  }
+  #home .text4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    margin-top: 0.2rem;
+    padding-left: 4px;
+  }
+  #home .btn {
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+  }
+  #home .btn button {
+    width: 9rem;
+    height: 2.4rem;
+    border-radius: 8px;
+    background-color: #780202;
+    border: none;
+    color: #dedbdb;
+    font-size: 1rem;
+  }
+  #home .btn button:hover {
+    cursor: url(/Icons/red-pointer.png), auto;
+    color: #780202;
+    background-color: #dedbdb;
+    border: 2px solid #780202;
+  }
+
+  #about {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 2;
+  }
+  #about .acontainer {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  #about .acontainer .main {
+    width: 100%;
+    display: flex;
+  }
+
+  #about .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: -1.5px;
+  }
+  #about .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .acontainer .main .myimg {
+    display: none;
+  }
+
+  .main .myimg img {
+    border-radius: 50%;
+    height: 10.5rem;
+    border: 2.5px solid #780202;
+    box-shadow: 1px 1px 10px 1px #780202;
+    padding-top: 0.3rem;
+  }
+  #about .acontainer .main .img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .acontainer .main .img img {
+    margin: 0 auto;
+    display: block;
+    width: 15rem;
+    padding-bottom: 5rem;
+  }
+  .main .text {
+    width: 70%;
+    text-align: start;
+    padding-top: 1.5rem;
+    padding-bottom: 4.5rem;
+    font-size: 1.1rem;
+  }
+
+  #skills {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 3;
+  }
+  #skills .container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  #skills .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: -1.5px;
+  }
+  #skills .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+  #skills .container2 {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 0.5fr;
+    grid-gap: 2rem 1rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  .container2 .html {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .container2 .css {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .container2 .photoshop {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    margin-top: 1rem;
+  }
+  .container2 .filmora {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    margin-top: 1rem;
+  }
+  .container2 .wordpress {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    margin-top: 0rem;
+  }
+  .container2 .figma {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    margin-top: 1rem;
+  }
+
+  .container2 .html img,
+  .css img,
+  .photoshop img,
+  .filmora img,
+  .wordpress img,
+  .figma img {
+    width: 4.8rem;
+    padding-bottom: 0.4rem;
+  }
+  .container2 .wordpress img,
+  .photoshop img,
+  .filmora img,
+  .figma img {
+    width: 6rem;
+  }
+
+  .container2 .subtext {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #780202;
+    padding: 1px 5px;
+  }
+  .container2 .subtext:hover {
+    cursor: url(/Icons/red-pointer.png), auto;
+    background-color: #780202;
+    color: #dedbdb;
+  }
+
+  .container2 .level {
+    font-family: sans-serif;
+    padding-top: 0.2rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .container2 .footer {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    font-size: 1.1rem;
+  }
+  #footer {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 4;
+  }
+  #footer .fcontainer {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  #footer .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3rem;
+    letter-spacing: -1.5px;
+  }
+  #footer .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1.2rem;
+    padding-bottom: 6rem;
+  }
+  .fcontainer .text {
+    text-align: center;
+    font-size: 1.1rem;
+    padding: 0.8rem 0rem;
+    padding-bottom: 5rem;
+  }
+  .fcontainer .icons {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0rem;
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+  .fcontainer .insta img,
+  .gmail img,
+  .whatsapp img {
+    width: 3.5rem;
+  }
+  .fcontainer .fb img,
+  .linkedin img {
+    width: 3rem;
+  }
+  .fcontainer .fb img,
+  .linkedin img {
+    border: 0.2rem solid black;
+  }
+  .fcontainer .icons img:hover {
+    transform: scale(1.1);
+    cursor: url(/Icons/red-pointer.png), auto;
+  }
+  .cr {
+    font-size: 1rem;
+    position: sticky;
+    z-index: 6;
+    text-align: center;
+    background: #dedbdb;
+    border-bottom: 7px solid #780202;
+  }
+  #about .acontainer .header,
+  #skills .container .header,
+  #footer .fcontainer .header {
+    font-size: 4rem;
+  }
+  #about .acontainer .qoute,
+  #skills .container .qoute,
+  #footer .fcontainer .qoute {
+    font-size: 1.2rem;
+  }
+  #about .acontainer .qoute span,
+  #skills .container .qoute span,
+  #footer .fcontainer .qoute span {
+    font-size: 1.1rem !important;
+  }
+}
+
+/* @media screen (min-width:700px) and (max-width: 959px) {
+  #home .text1 {
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+  }
+
+  #home .text2 {
+    font-size: 4.5rem;
+    margin-top: 6rem;
+  }
+  #home .text3 {
+    font-size: 3.4rem;
+  }
+  #home .text4 {
+    font-size: 1.2rem;
+  }
+  #home .btn {
+    margin-top: 4rem;
+    margin-bottom: 0rem;
+  }
+  #home .btn button {
+    width: 8rem;
+    height: 2.2rem;
+    font-size: 1.1rem;
+  }
+} */
+
+@media screen and (min-width: 992px) {
+  #home {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 1;
+  }
+  #home .home {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+  }
+  #home .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #home .home .myimg {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: end;
+  }
+  .home .myimg img {
+    width: 19rem;
+    padding-left: 1rem;
+    padding-top: 4.5rem;
+    margin-bottom: -4.5px;
+    filter: drop-shadow(4px 4px 8px #780202);
+    z-index: 0;
+  }
+  #home .text1 {
+    padding-top: 1.2rem;
+    font-size: 1.5rem;
+    letter-spacing: -0.8px;
+    font-weight: 500;
+  }
+
+  #home .text2 {
+    font-size: 5rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-top: 3rem;
+  }
+  #home .text3 {
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-top: 0.5rem;
+  }
+  #home .text4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    margin-top: 0.1rem;
+    padding-left: 4px;
+  }
+  #home .btn {
+    margin-top: 5rem;
+    margin-bottom: 0rem;
+  }
+  #home .btn button {
+    width: 11rem;
+    height: 3rem;
+    border-radius: 8px;
+    background-color: #780202;
+    border: none;
+    color: #dedbdb;
+    font-size: 1.35rem;
+  }
+  #home .btn button:hover {
+    cursor: url(/Icons/red-pointer.png), auto;
+    color: #780202;
+    background-color: #dedbdb;
+    border: 2px solid #780202;
+  }
+
+  #about {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 2;
+  }
+  #about .acontainer {
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  #about .acontainer .main {
+    width: 100%;
+    display: flex;
+  }
+
+  #about .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 4rem;
+    letter-spacing: -1.5px;
+  }
+  #about .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .acontainer .main .myimg {
+    display: none;
+  }
+
+  .main .myimg img {
+    border-radius: 50%;
+    height: 10.5rem;
+    border: 2.5px solid #780202;
+    box-shadow: 1px 1px 10px 1px #780202;
+    padding-top: 0.3rem;
+  }
+  #about .acontainer .main .img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .acontainer .main .img img {
+    margin: 0 auto;
+    display: block;
+    width: 20rem;
+    padding-bottom: 8rem;
+  }
+  .main .text {
+    width: 70%;
+    text-align: start;
+    padding-top: 2.5rem;
+    padding-bottom: 4.5rem;
+    font-size: 1.3rem;
+    padding-right: 2rem;
+  }
+
+  #skills {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 3;
+  }
+  #skills .container {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  #skills .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 4rem;
+    letter-spacing: -1.5px;
+  }
+  #skills .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+  #skills .container2 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr;
+    grid-gap: 1rem 2rem;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .container2 .html {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .container2 .css {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .container2 .photoshop {
+    grid-row: 1/2;
+    grid-column: 4/5;
+    margin-top: 0rem;
+  }
+  .container2 .filmora {
+    grid-row: 1/2;
+    grid-column: 5/6;
+    margin-top: 0rem;
+  }
+  .container2 .wordpress {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    margin-top: 0rem;
+  }
+  .container2 .figma {
+    grid-row: 1/2;
+    grid-column: 6/7;
+    margin-top: 0rem;
+  }
+
+  .container2 .html img,
+  .css img,
+  .photoshop img,
+  .filmora img,
+  .wordpress img,
+  .figma img {
+    width: 5rem;
+    padding-bottom: 0.4rem;
+  }
+  .container2 .wordpress img,
+  .photoshop img,
+  .filmora img,
+  .figma img {
+    width: 6.3rem;
+  }
+
+  .container2 .subtext {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #780202;
+    padding: 1px 5px;
+  }
+  .container2 .subtext:hover {
+    cursor: url(/Icons/red-pointer.png), auto;
+    background-color: #780202;
+    color: #dedbdb;
+  }
+
+  .container2 .level {
+    font-family: sans-serif;
+    padding-top: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .container2 .footer {
+    text-align: center;
+    grid-column: 1/7;
+    grid-row: 2/3;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    font-size: 1.2rem;
+  }
+  #footer {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 4;
+  }
+  #footer .fcontainer {
+    width: 75%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  #footer .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 4rem;
+    letter-spacing: -1.5px;
+  }
+  #footer .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1.2rem;
+    padding-bottom: 6rem;
+  }
+  .fcontainer .text {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.8rem 0rem;
+    padding-bottom: 7rem;
+  }
+  .fcontainer .icons {
+    width: 60%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0rem;
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+  .fcontainer .insta img,
+  .gmail img,
+  .whatsapp img {
+    width: 4rem;
+  }
+  .fcontainer .fb img,
+  .linkedin img {
+    width: 3.5rem;
+  }
+  .fcontainer .fb img,
+  .linkedin img {
+    border: 0.2rem solid black;
+  }
+  .fcontainer .icons img:hover {
+    transform: scale(1.1);
+    cursor: url(/Icons/red-pointer.png), auto;
+  }
+  .cr {
+    font-size: 1.1rem;
+    position: sticky;
+    z-index: 6;
+    text-align: center;
+    background: #dedbdb;
+    /* border-left: 4px solid #780202;
+        border-right: 4px solid #780202; */
+    border-bottom: 7px solid #780202;
+  }
+  .cr span {
+    font-size: 1.15rem !important;
+  }
+  #about .acontainer .header,
+  #skills .container .header,
+  #footer .fcontainer .header {
+    font-size: 5rem;
+  }
+  #about .acontainer .qoute,
+  #skills .container .qoute,
+  #footer .fcontainer .qoute {
+    font-size: 1.3rem;
+  }
+  #about .acontainer .qoute span,
+  #skills .container .qoute span,
+  #footer .fcontainer .qoute span {
+    font-size: 1.2rem !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #home {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 1;
+  }
+  #home .home {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+  }
+  #home .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #home .home .myimg {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    text-align: end;
+  }
+  .home .myimg img {
+    width: 22rem;
+    padding-left: 1rem;
+    padding-top: 4.5rem;
+    margin-bottom: -4.5px;
+    filter: drop-shadow(4px 2px 8px #780202);
+    z-index: 0;
+  }
+  #home .text1 {
+    padding-top: 1.2rem;
+    font-size: 1.5rem;
+    letter-spacing: -0.8px;
+    font-weight: 500;
+  }
+
+  #home .text2 {
+    font-size: 5.5rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-top: 4rem;
+  }
+  #home .text3 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    letter-spacing: -2px;
+    margin-top: 0.5rem;
+  }
+  #home .text4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 2.2px;
+    margin-top: 0.1rem;
+    padding-left: 4px;
+  }
+  #home .btn {
+    margin-top: 6rem;
+    margin-bottom: 0rem;
+  }
+  #home .btn button {
+    width: 12rem;
+    height: 3rem;
+    border-radius: 8px;
+    background-color: #780202;
+    border: none;
+    color: #dedbdb;
+    font-size: 1.5rem;
+  }
+  #home .btn button:hover {
+    cursor: url(/Icons/red-pointer.png), auto;
+    color: #780202;
+    background-color: #dedbdb;
+    border: 2px solid #780202;
+  }
+
+  #about {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 2;
+  }
+  #about .acontainer {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  #about .acontainer .main {
+    width: 100%;
+    display: flex;
+  }
+
+  #about .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 4rem;
+    letter-spacing: -1.5px;
+  }
+  #about .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+  }
+
+  .acontainer .main .myimg {
+    display: none;
+  }
+
+  .main .myimg img {
+    border-radius: 50%;
+    height: 10.5rem;
+    border: 2.5px solid #780202;
+    box-shadow: 1px 1px 10px 1px #780202;
+    padding-top: 0.3rem;
+  }
+  #about .acontainer .main .img {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .acontainer .main .img img {
+    margin: 0 auto;
+    display: block;
+    width: 21rem;
+    padding-bottom: 8rem;
+  }
+  .main .text {
+    width: 70%;
+    text-align: start;
+    padding-top: 3rem;
+    padding-bottom: 4.5rem;
+    font-size: 1.3rem;
+    padding-right: 2rem;
+  }
+
+  #skills {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 3;
+  }
+  #skills .container {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  #skills .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 4rem;
+    letter-spacing: -1.5px;
+  }
+  #skills .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+  }
+  #skills .container2 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.5fr;
+    grid-gap: 1rem 2rem;
+    text-align: center;
+    margin-top: 3rem;
+  }
+
+  .container2 .html {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+  .container2 .css {
+    grid-row: 1/2;
+    grid-column: 2/3;
+  }
+  .container2 .photoshop {
+    grid-row: 1/2;
+    grid-column: 4/5;
+    margin-top: 0rem;
+  }
+  .container2 .filmora {
+    grid-row: 1/2;
+    grid-column: 5/6;
+    margin-top: 0rem;
+  }
+  .container2 .wordpress {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    margin-top: 0rem;
+  }
+  .container2 .figma {
+    grid-row: 1/2;
+    grid-column: 6/7;
+    margin-top: 0rem;
+  }
+
+  .container2 .html img,
+  .css img,
+  .photoshop img,
+  .filmora img,
+  .wordpress img,
+  .figma img {
+    width: 5rem;
+    padding-bottom: 0.4rem;
+  }
+  .container2 .wordpress img,
+  .photoshop img,
+  .filmora img,
+  .figma img {
+    width: 6.3rem;
+  }
+
+  .container2 .subtext {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #780202;
+    padding: 1px 5px;
+  }
+  .container2 .subtext:hover {
+    cursor: url(/Icons/red-pointer.png), auto;
+    background-color: #780202;
+    color: #dedbdb;
+  }
+
+  .container2 .level {
+    font-family: sans-serif;
+    padding-top: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+  }
+  .container2 .footer {
+    text-align: center;
+    grid-column: 1/7;
+    grid-row: 2/3;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    font-size: 1.3rem;
+  }
+  #footer {
+    background-color: #dedbdb;
+    width: 100%;
+    height: 100%;
+    border-bottom: 7px solid #780202;
+    z-index: 4;
+  }
+  #footer .fcontainer {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  #footer .header {
+    font-size: 3.3rem;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 4rem;
+    letter-spacing: -1.5px;
+  }
+  #footer .qoute {
+    font-size: 1.1rem;
+    text-align: center;
+    padding-top: 1.2rem;
+    padding-bottom: 6rem;
+  }
+  .fcontainer .text {
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 0.8rem 0rem;
+    padding-bottom: 6rem;
+  }
+  .fcontainer .icons {
+    width: 50%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0rem;
+    text-align: center;
+    padding-bottom: 5rem;
+  }
+  .fcontainer .insta img,
+  .gmail img,
+  .whatsapp img {
+    width: 4rem;
+  }
+  .fcontainer .fb img,
+  .linkedin img {
+    width: 3.5rem;
+  }
+  .fcontainer .fb img,
+  .linkedin img {
+    border: 0.2rem solid black;
+  }
+  .fcontainer .icons img:hover {
+    transform: scale(1.1);
+    cursor: url(/Icons/red-pointer.png), auto;
+  }
+  .cr {
+    font-size: 1.2rem;
+    position: sticky;
+    z-index: 6;
+    text-align: center;
+    background: #dedbdb;
+    /* border-left: 4px solid #780202;
+        border-right: 4px solid #780202; */
+    border-bottom: 7px solid #780202;
+  }
+  .cr span {
+    font-size: 1.25rem !important;
+  }
+  #about .acontainer .header,
+  #skills .container .header,
+  #footer .fcontainer .header {
+    font-size: 5.5rem;
+  }
+  #about .acontainer .qoute,
+  #skills .container .qoute,
+  #footer .fcontainer .qoute {
+    font-size: 1.4rem;
+  }
+  #about .acontainer .qoute span,
+  #skills .container .qoute span,
+  #footer .fcontainer .qoute span {
+    font-size: 1.3rem !important;
+  }
+}
